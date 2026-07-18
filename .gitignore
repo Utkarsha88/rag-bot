@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ML / LangChain / LLM apps
+# =========================
+.cache/
+.langchain/
+.langsmith/
+.openai/
+.gemini/
+*.sqlite
+*.db
+
+# =========================
+# Data files (optional - keep if sensitive)
+# =========================
+data/
+Data.csv
+
+# =========================
+# Model / large files
+# =========================
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# =========================
+# Node (if frontend added later)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
